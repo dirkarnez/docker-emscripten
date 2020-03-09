@@ -1,15 +1,13 @@
 #include <iostream>
-using namespace std;
+#include <emscripten/bind.h>
+
+using namespace emscripten;
 
 constexpr int product(int x, int y) 
 { 
     return (x * y); 
 }
 
-int main() 
-{
-    cout << "Hello, World!" << endl;
-    const int x = product(10, 20); 
-    cout << x; 
-    return 0;
+EMSCRIPTEN_BINDINGS(my_module) {
+    constant("MY_CONST", product(10, 20));
 }
