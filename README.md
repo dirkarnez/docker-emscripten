@@ -15,3 +15,6 @@ C++ features to be tested
 
 C++ libraries to be tested
 - [ ] Boost library
+
+### Related projects
+- [dirkarnez/github-emscripten-cpp-action](https://github.com/dirkarnez/github-emscripten-cpp-action)
