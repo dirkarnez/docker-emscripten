@@ -19,4 +19,5 @@ C++ libraries to be tested
 ### Related projects
 - [dirkarnez/github-emscripten-cpp-action](https://github.com/dirkarnez/github-emscripten-cpp-action)
 - [h264-mp4-encoder/Dockerfile at master · TrevorSundberg/h264-mp4-encoder](https://github.com/TrevorSundberg/h264-mp4-encoder/blob/master/Dockerfile)
+  - [h264-mp4-encoder/CMakeLists.txt at master · TrevorSundberg/h264-mp4-encoder](https://github.com/TrevorSundberg/h264-mp4-encoder/blob/master/CMakeLists.txt)
 
